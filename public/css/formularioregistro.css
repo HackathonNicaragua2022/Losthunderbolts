@@ -1,0 +1,10 @@
+body {
+    background: -webkit-linear-gradient(70deg, white 20%, cyan 80%);
+    background: -moz-linear-gradient(70deg, white 20%, cyan 80%);
+    background: -ms-linear-gradient(70deg, white 20%, cyan 80%);
+    background: -o-linear-gradient(70deg, white 20%, cyan 80%);
+    background: linear-gradient(70deg, white 20%, cyan 80%);
+}
+h2 {
+    text-align: center;
+}
