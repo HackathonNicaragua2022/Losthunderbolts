@@ -12,27 +12,26 @@
 
 
     <link rel="stylesheet" href="css/formularioregistro.css">
+    <link rel="icon" href="img/MO.png">
 </head>
 
 <body>
-
     <main>
 
         <!--Formulario de Login y registro-->
         <div class="contenedor__login-register">
 
             <!--Register-->
-            <form action="" class="formulario__register">
-                <h2>Regístrarse</h2>
+            <form action="" class="formulario_register">
+                <h1>Regístrarse</h1>
                 <label for="Sexo">Elije Sexo</label>
                 <select name="Sexo" id="Sexo">
                     <option value="doctor">Dr.</option>
                     <option value="doctora">Dra.</option>
                 </select>
                 <input type="text" placeholder="Codigo Medico">
-                <input type="text" placeholder="Nombre Completo">
                 <input type="text" placeholder="Edad">
-                <input type="" placeholder="Especialidad">
+                <input type="text" placeholder="Especialidad">
                 <input type="text" placeholder="SubEspecialidad">
                 <input type="text" placeholder="Promedio de Graduación">
                 <label for="Universidad">Elije Univesidad</label>

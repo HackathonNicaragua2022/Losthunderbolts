@@ -33,13 +33,21 @@
                 <div>
                     <div class="form-container s-center">
                         <form class="form">
-                            <input type="email" name="email" class="input" required
-                                placeholder="Ingresa tu correo electronico" />
-                            <button type="submit" class="button">Regístrate</button>
+                            <div>
+                                <input type="email" name="email" class="input" required
+                                    placeholder="Ingresa tu correo electronico" />
+                            </div>
+                            <div>
+                                <input type="password" name="password" class="input" required
+                                    placeholder="Ingresa tu contraseña" />
+                            </div>
+                            <div><button type="submit" class="button">Regístrate</button></div>
                         </form>
-                        <p class="form-hint s-center">
-                            ¡Haz tu consulta con tu médico de preferencia!
-                        </p>
+                        <div>
+                            <p class="form-hint s-center">
+                                ¡Haz tu consulta con tu médico de preferencia!
+                            </p>
+                        </div>
                     </div>
                 </div>
             </div>

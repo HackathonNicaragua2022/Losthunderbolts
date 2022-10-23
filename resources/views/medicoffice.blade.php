@@ -483,12 +483,12 @@
 
             <div class="box">
                 <h3>Síguenos</h3>
-                <a href="#"> <i class="fab fa-facebook-f"></i> facebook </a>
-                <a href="#"> <i class="fab fa-twitter"></i> twitter </a>
+                <a href="https://www.facebook.com/MedicOffice"> <i class="fab fa-facebook-f"></i> facebook </a>
+                <a href="https://twitter.com/medicoffice22"> <i class="fab fa-twitter"></i> twitter </a>
                 <a href="#"> <i class="fab fa-tiktok"></i> Tik Tok </a>
-                <a href="#"> <i class="fab fa-instagram"></i> instagram </a>
-                <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
-                <a href="#"> <i class="fab fa-pinterest"></i> pinterest </a>
+                <a href="https://www.instagram.com/medicoffice_22/"> <i class="fab fa-instagram"></i> instagram </a>
+                <a href="https://www.linkedin.com/mwlite/in/medic-office-355637254"> <i class="fab fa-linkedin"></i>
+                    linkedin </a>
             </div>
         </div>
 

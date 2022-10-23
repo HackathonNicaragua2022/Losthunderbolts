@@ -1,10 +1,97 @@
 body {
-    background: -webkit-linear-gradient(70deg, white 20%, cyan 80%);
-    background: -moz-linear-gradient(70deg, white 20%, cyan 80%);
-    background: -ms-linear-gradient(70deg, white 20%, cyan 80%);
-    background: -o-linear-gradient(70deg, white 20%, cyan 80%);
-    background: linear-gradient(70deg, white 20%, cyan 80%);
+    background-image: url(/css/img/ddd.jpg);
 }
-h2 {
+h1 {
     text-align: center;
+}
+* {
+    box-sizing: border-box;
+}
+
+form {
+    width: 600px;
+    height: 750px;
+    padding: 16px;
+    border-radius: 10px;
+    margin: auto;
+    background-color: rgb(255, 255, 255);
+}
+form label {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    width: 72px;
+    font-weight: bold;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+form input[type="text"] {
+    width: 180px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #000000;
+    margin: 8px 0;
+    display: inline-block;
+}
+form select {
+    width: 180px;
+    padding: 3px 10px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #000000;
+    margin: 8px 0;
+    display: inline-block;
+}
+form select {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 32px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 8px 16px;
+    margin-top: 32px;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 5px;
+    display: block;
+    color: rgb(0, 0, 0);
+    background-color: rgb(255, 255, 255);
+}
+
+form input[type="text"]:hover {
+    cursor: pointer;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    border: 1px solid #f6f6f6;
+    border-radius: 3px;
+    background-color: #f6f6f6;
+    margin: 8px 0;
+    /*resize: vertical | horizontal | none | both*/
+    resize: none;
+    display: block;
+}
+button {
+    align-items: center;
+    background: #5694f0;
+    outline: none;
+    border: none;
+    color: #fff;
+    padding: 8px 22px;
+    border-radius: 20px;
+    font-size: 14px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+    margin-bottom: 12px;
+}
+button:hover {
+    background: #16a085;
 }
